@@ -1,0 +1,10 @@
+dropout_rate: 0.5
+input_size: 784
+num_classes: 10
+num_filtros:
+- 32
+- 64
+num_neuronios_por_camada:
+- 128
+- 54
+taxa_aprendizado: 0.001

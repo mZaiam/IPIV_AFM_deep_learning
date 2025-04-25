@@ -1,0 +1,7 @@
+dropout_rate: 0.5
+num_classes: 10
+num_filtros:
+- 32
+- 64
+num_neuronios_fc: 128
+taxa_aprendizado: 0.001
