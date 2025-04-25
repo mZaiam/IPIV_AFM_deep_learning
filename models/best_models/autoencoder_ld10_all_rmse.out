@@ -1,0 +1,8 @@
+LD=10
+Using: cuda
+RMSE
+auau: 2.0440
+ausio2: 1.1896
+ligcl: 1.9717
+ligsio2: 2.5761
+all: 2.0073

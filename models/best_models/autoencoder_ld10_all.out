@@ -1,0 +1,189 @@
+LD=10
+Using: cuda
+Epoch 1/2000 | Loss: 0.0071486128
+Saved at epoch 1.
+Epoch 2/2000 | Loss: 0.0014749927
+Saved at epoch 2.
+Epoch 3/2000 | Loss: 0.0008759776
+Saved at epoch 3.
+Epoch 4/2000 | Loss: 0.0006363082
+Saved at epoch 4.
+Epoch 5/2000 | Loss: 0.0005238342
+Saved at epoch 5.
+Epoch 6/2000 | Loss: 0.0004247078
+Saved at epoch 6.
+Epoch 7/2000 | Loss: 0.0003847918
+Saved at epoch 7.
+Epoch 8/2000 | Loss: 0.0003477983
+Saved at epoch 8.
+Epoch 9/2000 | Loss: 0.0003099222
+Saved at epoch 9.
+Epoch 10/2000 | Loss: 0.0002877840
+Saved at epoch 10.
+Epoch 11/2000 | Loss: 0.0002769310
+Saved at epoch 11.
+Epoch 12/2000 | Loss: 0.0002440436
+Saved at epoch 12.
+Epoch 13/2000 | Loss: 0.0002275032
+Saved at epoch 13.
+Epoch 14/2000 | Loss: 0.0002312245
+Epoch 15/2000 | Loss: 0.0002034690
+Saved at epoch 15.
+Epoch 16/2000 | Loss: 0.0001888150
+Saved at epoch 16.
+Epoch 17/2000 | Loss: 0.0001802848
+Saved at epoch 17.
+Epoch 18/2000 | Loss: 0.0001898311
+Epoch 19/2000 | Loss: 0.0001647033
+Saved at epoch 19.
+Epoch 20/2000 | Loss: 0.0001705611
+Epoch 21/2000 | Loss: 0.0001704410
+Epoch 22/2000 | Loss: 0.0001578441
+Saved at epoch 22.
+Epoch 23/2000 | Loss: 0.0001580444
+Epoch 24/2000 | Loss: 0.0001377142
+Saved at epoch 24.
+Epoch 25/2000 | Loss: 0.0001359357
+Saved at epoch 25.
+Epoch 26/2000 | Loss: 0.0001337563
+Saved at epoch 26.
+Epoch 27/2000 | Loss: 0.0001371962
+Epoch 28/2000 | Loss: 0.0001529743
+Epoch 29/2000 | Loss: 0.0001299358
+Saved at epoch 29.
+Epoch 30/2000 | Loss: 0.0001214403
+Saved at epoch 30.
+Epoch 31/2000 | Loss: 0.0001175112
+Saved at epoch 31.
+Epoch 32/2000 | Loss: 0.0001262965
+Epoch 33/2000 | Loss: 0.0001206345
+Epoch 34/2000 | Loss: 0.0001129308
+Saved at epoch 34.
+Epoch 35/2000 | Loss: 0.0001083268
+Saved at epoch 35.
+Epoch 36/2000 | Loss: 0.0001030633
+Saved at epoch 36.
+Epoch 37/2000 | Loss: 0.0001031486
+Epoch 38/2000 | Loss: 0.0000958345
+Saved at epoch 38.
+Epoch 39/2000 | Loss: 0.0000965375
+Epoch 40/2000 | Loss: 0.0001129938
+Epoch 41/2000 | Loss: 0.0001078949
+Epoch 42/2000 | Loss: 0.0000932358
+Saved at epoch 42.
+Epoch 43/2000 | Loss: 0.0000893039
+Saved at epoch 43.
+Epoch 44/2000 | Loss: 0.0000887077
+Saved at epoch 44.
+Epoch 45/2000 | Loss: 0.0000929592
+Epoch 46/2000 | Loss: 0.0000924576
+Epoch 47/2000 | Loss: 0.0000857684
+Saved at epoch 47.
+Epoch 48/2000 | Loss: 0.0000807239
+Saved at epoch 48.
+Epoch 49/2000 | Loss: 0.0000905675
+Epoch 50/2000 | Loss: 0.0000819020
+Epoch 51/2000 | Loss: 0.0000937374
+Epoch 52/2000 | Loss: 0.0000854783
+Epoch 53/2000 | Loss: 0.0000798690
+Saved at epoch 53.
+Epoch 54/2000 | Loss: 0.0000779665
+Saved at epoch 54.
+Epoch 55/2000 | Loss: 0.0000723110
+Saved at epoch 55.
+Epoch 56/2000 | Loss: 0.0000875565
+Epoch 57/2000 | Loss: 0.0001101553
+Epoch 58/2000 | Loss: 0.0000754572
+Epoch 59/2000 | Loss: 0.0000807637
+Epoch 60/2000 | Loss: 0.0000745808
+Epoch 61/2000 | Loss: 0.0000697574
+Saved at epoch 61.
+Epoch 62/2000 | Loss: 0.0000679368
+Saved at epoch 62.
+Epoch 63/2000 | Loss: 0.0000641815
+Saved at epoch 63.
+Epoch 64/2000 | Loss: 0.0000664193
+Epoch 65/2000 | Loss: 0.0000623807
+Saved at epoch 65.
+Epoch 66/2000 | Loss: 0.0000665455
+Epoch 67/2000 | Loss: 0.0000623896
+Epoch 68/2000 | Loss: 0.0000667817
+Epoch 69/2000 | Loss: 0.0000914351
+Epoch 70/2000 | Loss: 0.0001039307
+Epoch 71/2000 | Loss: 0.0000678121
+Epoch 72/2000 | Loss: 0.0000592142
+Saved at epoch 72.
+Epoch 73/2000 | Loss: 0.0000585547
+Saved at epoch 73.
+Epoch 74/2000 | Loss: 0.0000586383
+Epoch 75/2000 | Loss: 0.0000576039
+Saved at epoch 75.
+Epoch 76/2000 | Loss: 0.0000573915
+Saved at epoch 76.
+Epoch 77/2000 | Loss: 0.0000559352
+Saved at epoch 77.
+Epoch 78/2000 | Loss: 0.0000607397
+Epoch 79/2000 | Loss: 0.0000606090
+Epoch 80/2000 | Loss: 0.0000586414
+Epoch 81/2000 | Loss: 0.0000780165
+Epoch 82/2000 | Loss: 0.0000638208
+Epoch 83/2000 | Loss: 0.0000537649
+Saved at epoch 83.
+Epoch 84/2000 | Loss: 0.0000528531
+Saved at epoch 84.
+Epoch 85/2000 | Loss: 0.0000554815
+Epoch 86/2000 | Loss: 0.0000536709
+Epoch 87/2000 | Loss: 0.0000585055
+Epoch 88/2000 | Loss: 0.0000540119
+Epoch 89/2000 | Loss: 0.0000538411
+Epoch 90/2000 | Loss: 0.0000502627
+Saved at epoch 90.
+Epoch 91/2000 | Loss: 0.0000527231
+Epoch 92/2000 | Loss: 0.0000612531
+Epoch 93/2000 | Loss: 0.0000573912
+Epoch 94/2000 | Loss: 0.0000526369
+Epoch 95/2000 | Loss: 0.0000540604
+Epoch 96/2000 | Loss: 0.0000537215
+Epoch 97/2000 | Loss: 0.0000502049
+Saved at epoch 97.
+Epoch 98/2000 | Loss: 0.0000510593
+Epoch 99/2000 | Loss: 0.0000754331
+Epoch 100/2000 | Loss: 0.0000571219
+Epoch 101/2000 | Loss: 0.0000495426
+Saved at epoch 101.
+Epoch 102/2000 | Loss: 0.0000525698
+Epoch 103/2000 | Loss: 0.0000459348
+Saved at epoch 103.
+Epoch 104/2000 | Loss: 0.0000521024
+Epoch 105/2000 | Loss: 0.0000468153
+Epoch 106/2000 | Loss: 0.0000532269
+Epoch 107/2000 | Loss: 0.0000771123
+Epoch 108/2000 | Loss: 0.0000604541
+Epoch 109/2000 | Loss: 0.0000443652
+Saved at epoch 109.
+Epoch 110/2000 | Loss: 0.0000413762
+Saved at epoch 110.
+Epoch 111/2000 | Loss: 0.0000401185
+Saved at epoch 111.
+Epoch 112/2000 | Loss: 0.0000430083
+Epoch 113/2000 | Loss: 0.0000424059
+Epoch 114/2000 | Loss: 0.0000454466
+Epoch 115/2000 | Loss: 0.0000448475
+Epoch 116/2000 | Loss: 0.0000426889
+Epoch 117/2000 | Loss: 0.0000487791
+Epoch 118/2000 | Loss: 0.0000468137
+Epoch 119/2000 | Loss: 0.0000447040
+Epoch 120/2000 | Loss: 0.0000432750
+Epoch 121/2000 | Loss: 0.0000413806
+Epoch 122/2000 | Loss: 0.0000455387
+Epoch 123/2000 | Loss: 0.0000461804
+Epoch 124/2000 | Loss: 0.0000475994
+Epoch 125/2000 | Loss: 0.0000412763
+Epoch 126/2000 | Loss: 0.0000469919
+Epoch 127/2000 | Loss: 0.0000486703
+Epoch 128/2000 | Loss: 0.0000636244
+Epoch 129/2000 | Loss: 0.0000470376
+Epoch 130/2000 | Loss: 0.0000479483
+Epoch 131/2000 | Loss: 0.0000505205
+Early stopping at epoch 131.
+21027 seconds elapsed.

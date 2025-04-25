@@ -1,0 +1,52 @@
+Using: cuda
+Epoch 1/100: train_loss: 0.6209 val_loss 0.4073
+Saved at epoch 1.
+Epoch 2/100: train_loss: 0.4082 val_loss 0.3553
+Saved at epoch 2.
+Epoch 3/100: train_loss: 0.3652 val_loss 0.3343
+Saved at epoch 3.
+Epoch 4/100: train_loss: 0.1902 val_loss 0.1031
+Saved at epoch 4.
+Epoch 5/100: train_loss: 0.1095 val_loss 0.0908
+Saved at epoch 5.
+Epoch 6/100: train_loss: 0.0924 val_loss 0.0826
+Saved at epoch 6.
+Epoch 7/100: train_loss: 0.0829 val_loss 0.0761
+Saved at epoch 7.
+Epoch 8/100: train_loss: 0.0750 val_loss 0.0742
+Saved at epoch 8.
+Epoch 9/100: train_loss: 0.0691 val_loss 0.0745
+Epoch 10/100: train_loss: 0.0623 val_loss 0.0711
+Saved at epoch 10.
+Epoch 11/100: train_loss: 0.0581 val_loss 0.0685
+Saved at epoch 11.
+Epoch 12/100: train_loss: 0.0530 val_loss 0.0722
+Epoch 13/100: train_loss: 0.0505 val_loss 0.0720
+Epoch 14/100: train_loss: 0.0486 val_loss 0.0691
+Epoch 15/100: train_loss: 0.0454 val_loss 0.0718
+Epoch 16/100: train_loss: 0.0439 val_loss 0.0684
+Saved at epoch 16.
+Epoch 17/100: train_loss: 0.0425 val_loss 0.0666
+Saved at epoch 17.
+Epoch 18/100: train_loss: 0.0392 val_loss 0.0674
+Epoch 19/100: train_loss: 0.0383 val_loss 0.0741
+Epoch 20/100: train_loss: 0.0363 val_loss 0.0705
+Epoch 21/100: train_loss: 0.0344 val_loss 0.0715
+Epoch 22/100: train_loss: 0.0328 val_loss 0.0716
+Epoch 23/100: train_loss: 0.0317 val_loss 0.0693
+Epoch 24/100: train_loss: 0.0316 val_loss 0.0726
+Epoch 25/100: train_loss: 0.0281 val_loss 0.0715
+Epoch 26/100: train_loss: 0.0298 val_loss 0.0743
+Epoch 27/100: train_loss: 0.0291 val_loss 0.0695
+Epoch 28/100: train_loss: 0.0278 val_loss 0.0763
+Epoch 29/100: train_loss: 0.0268 val_loss 0.0731
+Epoch 30/100: train_loss: 0.0261 val_loss 0.0761
+Epoch 31/100: train_loss: 0.0253 val_loss 0.0793
+Epoch 32/100: train_loss: 0.0250 val_loss 0.0769
+Epoch 33/100: train_loss: 0.0254 val_loss 0.0797
+Epoch 34/100: train_loss: 0.0236 val_loss 0.0813
+Epoch 35/100: train_loss: 0.0231 val_loss 0.0867
+Epoch 36/100: train_loss: 0.0232 val_loss 0.0782
+Epoch 37/100: train_loss: 0.0232 val_loss 0.0811
+Early stopping at epoch 37.
+Accuracy: 0.9817
