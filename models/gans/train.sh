@@ -9,3 +9,6 @@ source ~/.bashrc
 conda activate ai
 module load cuda/12.1
 python -u train_gan.py --ld=$1
+python -u images/generate_gif.py --ld=$1 
+rm images/images_epoch*.png
+mv *.gif images/
