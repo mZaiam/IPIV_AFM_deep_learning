@@ -219,6 +219,7 @@ class GAN(nn.Module):
         criterion,
         model_path=f'best_models/gan',
         epochs=200,
+        label_smoothing=0.8,
         verbose=True,
     ):
         self.to(self.device)
@@ -240,8 +241,8 @@ class GAN(nn.Module):
                 real_batch = real_batch.to(self.device)
                 batch_size = real_batch.size(0)
 
-                real_labels = torch.ones(batch_size, 1, device=self.device) * 0.8
-                fake_labels = torch.zeros(batch_size, 1, device=self.device) + 0.2 
+                real_labels = torch.ones(batch_size, 1, device=self.device) * label_smoothing
+                fake_labels = torch.zeros(batch_size, 1, device=self.device) + (1 - label_smoothing) 
 
                 # Discriminator
                 optimizer_discriminator.zero_grad()
