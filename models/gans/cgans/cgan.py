@@ -109,7 +109,7 @@ class Discriminator(nn.Module):
         cv_stride=2,
         cv_padding=(1, 2),
         cv_activation=nn.LeakyReLU(0.2),
-        lin_num_neurons=[16],
+        lin_num_neurons=[32],
         lin_activation=nn.LeakyReLU(0.2),
         input_shape=(127, 800),
     ):
@@ -199,7 +199,7 @@ class cGAN(nn.Module):
         cv_kernel_discriminator=(3, 5),
         cv_stride_discriminator=2,
         cv_padding_discriminator=(1, 2),
-        lin_num_neurons_discriminator=[16],
+        lin_num_neurons_discriminator=[32],
         n_classes=2,
         shape=(127, 800),
     ):
