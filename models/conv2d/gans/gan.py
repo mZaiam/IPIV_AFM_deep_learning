@@ -35,7 +35,7 @@ class Generator(nn.Module):
                 lin_activation,
             ])
         
-        self.lin_dec = nn.Sequential(*lin_layers)
+        self.lin_gen = nn.Sequential(*lin_layers)
         
         self.initial_channels = lin_num_neurons[-1] // (3 * 12) 
         self.initial_height = 3
@@ -79,14 +79,14 @@ class Generator(nn.Module):
                     deconv_activation,
                 ])
                                 
-        self.deconv_dec = nn.Sequential(*deconv_layers)
+        self.deconv_gen = nn.Sequential(*deconv_layers)
         
         self.adaptive_pool = nn.AdaptiveAvgPool2d(output_size=output_shape)
         
     def forward(self, x):
-        lin_out = self.lin_dec(x)
+        lin_out = self.lin_gen(x)
         deconv_in = lin_out.reshape(-1, self.initial_channels, self.initial_height, self.initial_width)
-        deconv_out = self.deconv_dec(deconv_in)
+        deconv_out = self.deconv_gen(deconv_in)
         return self.adaptive_pool(deconv_out)
     
 class Discriminator(nn.Module):
@@ -118,12 +118,12 @@ class Discriminator(nn.Module):
                 cv_activation,
             ])
                 
-        self.cv = nn.Sequential(*cv_layers)
+        self.cv_dis = nn.Sequential(*cv_layers)
         
         with torch.no_grad():
             dummy = torch.randn(1, 1, *input_shape)
-            conv_output_shape = self.cv(dummy).squeeze().shape
-            lin_input_neurons = self.cv(dummy).flatten().shape[0]
+            conv_output_shape = self.cv_dis(dummy).squeeze().shape
+            lin_input_neurons = self.cv_dis(dummy).flatten().shape[0]
                         
         lin_layers = [
             nn.Linear(
@@ -151,12 +151,12 @@ class Discriminator(nn.Module):
                     lin_activation,
                 ])
         
-        self.lin = nn.Sequential(*lin_layers)
+        self.lin_dis = nn.Sequential(*lin_layers)
             
     def forward(self, x):
-        cv_out = self.cv(x)
+        cv_out = self.cv_dis(x)
         cv_out = cv_out.view(cv_out.size(0), -1)
-        lin_out = self.lin(cv_out)
+        lin_out = self.lin_dis(cv_out)
         return lin_out
     
 class GAN(nn.Module):

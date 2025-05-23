@@ -2,7 +2,7 @@
 #SBATCH -n 8
 #SBATCH --ntasks-per-node=8
 #SBATCH -p gpu
-#SBATCH --gres=gpu:3060:1
+#SBATCH --gres=gpu:4090:1
 #SBATCH --time=48:00:00
 
 source ~/.bashrc

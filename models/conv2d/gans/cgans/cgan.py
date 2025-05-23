@@ -129,12 +129,12 @@ class Discriminator(nn.Module):
                 cv_activation,
             ])
                 
-        self.cv_gen = nn.Sequential(*cv_layers)
+        self.cv_dis = nn.Sequential(*cv_layers)
         
         with torch.no_grad():
             dummy = torch.randn(1, 1, *input_shape)
-            conv_output_shape = self.cv_gen(dummy).squeeze().shape
-            lin_input_neurons = self.cv_gen(dummy).flatten().shape[0]
+            conv_output_shape = self.cv_dis(dummy).squeeze().shape
+            lin_input_neurons = self.cv_dis(dummy).flatten().shape[0]
                         
         self.lin_gen_im = nn.Sequential(*[
             nn.Linear(
@@ -172,15 +172,15 @@ class Discriminator(nn.Module):
                     lin_activation,
                 ])
         
-        self.lin_gen = nn.Sequential(*lin_layers)
+        self.lin_dis = nn.Sequential(*lin_layers)
             
     def forward(self, x, y):
-        cv_out = self.cv_gen(x)
+        cv_out = self.cv_dis(x)
         cv_out = cv_out.view(cv_out.size(0), -1)
-        y_out = self.lin_gen_class(y)
-        x_out = self.lin_gen_im(cv_out)
+        y_out = self.lin_dis_class(y)
+        x_out = self.lin_dis_im(cv_out)
         lin_in = torch.concatenate([x_out, y_out], dim=1)
-        lin_out = self.lin_gen(lin_in)
+        lin_out = self.lin_dis(lin_in)
         return lin_out
     
 class cGAN(nn.Module):
