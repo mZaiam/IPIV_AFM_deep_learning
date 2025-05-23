@@ -45,10 +45,10 @@ ae = AE(
 
 # Loading and transforming data
 
-data1 = np.load('tipAu_Au_morl.npz')['wavelets']
-data2 = np.load('tipAu_SiO2_morl.npz')['wavelets']
-data3 = np.load('tipLig_CL_morl.npz')['wavelets']
-data4 = np.load('tipLig_SiO2_morl.npz')['wavelets']
+data1 = np.load('dataset_TipAu_Au.npz')['vDeflection_N']
+data2 = np.load('dataset_TipAu_SiO2.npz')['vDeflection_N']
+data3 = np.load('dataset_TipLig_CL.npz')['vDeflection_N']
+data4 = np.load('dataset_TipLig_SiO2.npz')['vDeflection_N']
 
 data1 = torch.tensor(data1, dtype=torch.float32).unsqueeze(1)
 data2 = torch.tensor(data2, dtype=torch.float32).unsqueeze(1)
@@ -62,6 +62,34 @@ data_ligsio2 = data4 / data4.max()
 
 data = torch.concatenate([data_auau, data_ausio2, data_ligcl, data_ligsio2])
 
+# Training
+
+batch_size, epochs, lr, patience = 64, 2000, 1e-3, 50
+
+loader_data = DataLoader(data, batch_size=batch_size, shuffle=True)
+
+optimizer = torch.optim.Adam(ae.parameters(), lr=lr)
+criterion = nn.MSELoss()
+
+start = timeit.default_timer()
+
+ae.fit(
+    loader_data, 
+    optimizer, 
+    criterion, 
+    epochs=epochs, 
+    patience=patience,
+    model_path=f'best_models/autoencoder_ld{latent_dim}_{datasets}.pth',
+)
+
+end = timeit.default_timer()
+
+print(f'{int(end-start)} seconds elapsed.')
+print()
+
+loss = np.array(ae.losses)
+np.save(f'loss_autoencoder_ld{latent_dim}_{datasets}.npy', loss)
+
 # Latent Space
 
 model = torch.load(f'best_models/autoencoder_ld{latent_dim}_{datasets}.pth', map_location=device, weights_only=True)
@@ -70,11 +98,11 @@ ae.to(device)
 ae.eval()
 
 loaders = {
-    'auau': DataLoader(data_auau, batch_size=64, shuffle=False),
-    'ausio2': DataLoader(data_ausio2, batch_size=64, shuffle=False),
-    'ligcl': DataLoader(data_ligcl, batch_size=64, shuffle=False),
-    'ligsio2': DataLoader(data_ligsio2, batch_size=64, shuffle=False),
-    'all': DataLoader(data, batch_size=64, shuffle=False)
+    'auau': DataLoader(data_auau, batch_size=128, shuffle=False),
+    'ausio2': DataLoader(data_ausio2, batch_size=128, shuffle=False),
+    'ligcl': DataLoader(data_ligcl, batch_size=128, shuffle=False),
+    'ligsio2': DataLoader(data_ligsio2, batch_size=128, shuffle=False),
+    'all': DataLoader(data, batch_size=128, shuffle=False)
 }
 
 ld_auau = []
