@@ -40,8 +40,8 @@ data3 = np.load('../tipLig_CL_morl.npz')['wavelets']
 #data4 = np.load('../tipLig_SiO2_morl.npz')['wavelets']
 
 #data1 = torch.tensor(data1, dtype=torch.float32).unsqueeze(1)
-data2 = torch.tensor(data2, dtype=torch.float32).unsqueeze(1)
-data3 = torch.tensor(data3, dtype=torch.float32).unsqueeze(1)
+data2 = torch.tensor(data2, dtype=torch.float32).unsqueeze(1)[:800]
+data3 = torch.tensor(data3, dtype=torch.float32).unsqueeze(1)[:800]
 #data4 = torch.tensor(data4, dtype=torch.float32).unsqueeze(1)
 
 #data_auau = data1 / data1.max()
