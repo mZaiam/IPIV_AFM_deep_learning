@@ -1,0 +1,121 @@
+LD=5
+Using: cuda
+Train proportions: tensor([0.2509, 0.2442, 0.2506, 0.2543])
+Test proportions: tensor([0.2463, 0.2732, 0.2476, 0.2329])
+Epoch 1/500: train_loss: 1.2220 val_loss 0.9856
+Saved at epoch 1.
+Epoch 2/500: train_loss: 0.9215 val_loss 0.8162
+Saved at epoch 2.
+Epoch 3/500: train_loss: 0.6405 val_loss 0.4819
+Saved at epoch 3.
+Epoch 4/500: train_loss: 0.4919 val_loss 0.4305
+Saved at epoch 4.
+Epoch 5/500: train_loss: 0.4649 val_loss 0.4147
+Saved at epoch 5.
+Epoch 6/500: train_loss: 0.4444 val_loss 0.4054
+Saved at epoch 6.
+Epoch 7/500: train_loss: 0.4366 val_loss 0.3967
+Saved at epoch 7.
+Epoch 8/500: train_loss: 0.4315 val_loss 0.3884
+Saved at epoch 8.
+Epoch 9/500: train_loss: 0.4229 val_loss 0.3923
+Epoch 10/500: train_loss: 0.4210 val_loss 0.3867
+Saved at epoch 10.
+Epoch 11/500: train_loss: 0.4167 val_loss 0.3808
+Saved at epoch 11.
+Epoch 12/500: train_loss: 0.4148 val_loss 0.3829
+Epoch 13/500: train_loss: 0.4116 val_loss 0.3827
+Epoch 14/500: train_loss: 0.4075 val_loss 0.3770
+Saved at epoch 14.
+Epoch 15/500: train_loss: 0.4054 val_loss 0.3742
+Saved at epoch 15.
+Epoch 16/500: train_loss: 0.4060 val_loss 0.3738
+Saved at epoch 16.
+Epoch 17/500: train_loss: 0.4029 val_loss 0.3797
+Epoch 18/500: train_loss: 0.3990 val_loss 0.3683
+Saved at epoch 18.
+Epoch 19/500: train_loss: 0.3980 val_loss 0.3727
+Epoch 20/500: train_loss: 0.3979 val_loss 0.3711
+Epoch 21/500: train_loss: 0.3976 val_loss 0.3688
+Epoch 22/500: train_loss: 0.3924 val_loss 0.3635
+Saved at epoch 22.
+Epoch 23/500: train_loss: 0.3930 val_loss 0.3677
+Epoch 24/500: train_loss: 0.3887 val_loss 0.3642
+Epoch 25/500: train_loss: 0.3929 val_loss 0.3675
+Epoch 26/500: train_loss: 0.3897 val_loss 0.3644
+Epoch 27/500: train_loss: 0.3915 val_loss 0.3634
+Saved at epoch 27.
+Epoch 28/500: train_loss: 0.3869 val_loss 0.3624
+Saved at epoch 28.
+Epoch 29/500: train_loss: 0.3878 val_loss 0.3633
+Epoch 30/500: train_loss: 0.3837 val_loss 0.3621
+Saved at epoch 30.
+Epoch 31/500: train_loss: 0.3862 val_loss 0.3618
+Saved at epoch 31.
+Epoch 32/500: train_loss: 0.3861 val_loss 0.3636
+Epoch 33/500: train_loss: 0.3817 val_loss 0.3663
+Epoch 34/500: train_loss: 0.3872 val_loss 0.3652
+Epoch 35/500: train_loss: 0.3794 val_loss 0.3620
+Epoch 36/500: train_loss: 0.3803 val_loss 0.3612
+Saved at epoch 36.
+Epoch 37/500: train_loss: 0.3802 val_loss 0.3645
+Epoch 38/500: train_loss: 0.3763 val_loss 0.3594
+Saved at epoch 38.
+Epoch 39/500: train_loss: 0.3794 val_loss 0.3678
+Epoch 40/500: train_loss: 0.3797 val_loss 0.3647
+Epoch 41/500: train_loss: 0.3776 val_loss 0.3671
+Epoch 42/500: train_loss: 0.3763 val_loss 0.3610
+Epoch 43/500: train_loss: 0.3758 val_loss 0.3588
+Saved at epoch 43.
+Epoch 44/500: train_loss: 0.3758 val_loss 0.3642
+Epoch 45/500: train_loss: 0.3754 val_loss 0.3731
+Epoch 46/500: train_loss: 0.3764 val_loss 0.3624
+Epoch 47/500: train_loss: 0.3728 val_loss 0.3646
+Epoch 48/500: train_loss: 0.3725 val_loss 0.3612
+Epoch 49/500: train_loss: 0.3767 val_loss 0.3618
+Epoch 50/500: train_loss: 0.3752 val_loss 0.3642
+Epoch 51/500: train_loss: 0.3729 val_loss 0.3624
+Epoch 52/500: train_loss: 0.3689 val_loss 0.3627
+Epoch 53/500: train_loss: 0.3718 val_loss 0.3646
+Epoch 54/500: train_loss: 0.3704 val_loss 0.3624
+Epoch 55/500: train_loss: 0.3705 val_loss 0.3631
+Epoch 56/500: train_loss: 0.3710 val_loss 0.3642
+Epoch 57/500: train_loss: 0.3698 val_loss 0.3648
+Epoch 58/500: train_loss: 0.3718 val_loss 0.3632
+Epoch 59/500: train_loss: 0.3705 val_loss 0.3630
+Epoch 60/500: train_loss: 0.3696 val_loss 0.3618
+Epoch 61/500: train_loss: 0.3675 val_loss 0.3667
+Epoch 62/500: train_loss: 0.3694 val_loss 0.3841
+Epoch 63/500: train_loss: 0.3736 val_loss 0.3642
+Epoch 64/500: train_loss: 0.3678 val_loss 0.3738
+Epoch 65/500: train_loss: 0.3668 val_loss 0.3633
+Epoch 66/500: train_loss: 0.3682 val_loss 0.3634
+Epoch 67/500: train_loss: 0.3679 val_loss 0.3679
+Epoch 68/500: train_loss: 0.3655 val_loss 0.3681
+Epoch 69/500: train_loss: 0.3661 val_loss 0.3655
+Epoch 70/500: train_loss: 0.3678 val_loss 0.3678
+Epoch 71/500: train_loss: 0.3681 val_loss 0.3691
+Epoch 72/500: train_loss: 0.3643 val_loss 0.3646
+Epoch 73/500: train_loss: 0.3637 val_loss 0.3726
+Epoch 74/500: train_loss: 0.3643 val_loss 0.3749
+Epoch 75/500: train_loss: 0.3661 val_loss 0.3655
+Epoch 76/500: train_loss: 0.3649 val_loss 0.3651
+Epoch 77/500: train_loss: 0.3690 val_loss 0.3686
+Epoch 78/500: train_loss: 0.3653 val_loss 0.3675
+Epoch 79/500: train_loss: 0.3623 val_loss 0.3657
+Epoch 80/500: train_loss: 0.3611 val_loss 0.3729
+Epoch 81/500: train_loss: 0.3644 val_loss 0.3700
+Epoch 82/500: train_loss: 0.3652 val_loss 0.3684
+Epoch 83/500: train_loss: 0.3617 val_loss 0.3697
+Epoch 84/500: train_loss: 0.3628 val_loss 0.3699
+Epoch 85/500: train_loss: 0.3640 val_loss 0.3713
+Epoch 86/500: train_loss: 0.3714 val_loss 0.3787
+Epoch 87/500: train_loss: 0.3727 val_loss 0.3704
+Epoch 88/500: train_loss: 0.3621 val_loss 0.3783
+Epoch 89/500: train_loss: 0.3612 val_loss 0.3692
+Epoch 90/500: train_loss: 0.3610 val_loss 0.3762
+Epoch 91/500: train_loss: 0.3617 val_loss 0.3715
+Epoch 92/500: train_loss: 0.3613 val_loss 0.3682
+Epoch 93/500: train_loss: 0.3618 val_loss 0.3704
+Early stopping at epoch 93.
+Test Accuracy: 74.63%

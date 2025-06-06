@@ -28,10 +28,10 @@ mlp = NN(size_layers, dropout_layers, nn.ReLU(), device)
 
 # Loading data
 
-data_auau = torch.tensor(np.load(f"ld{ld}_auau_all.npy"), dtype=torch.float32)
-data_ausio2 = torch.tensor(np.load(f"ld{ld}_ausio2_all.npy"), dtype=torch.float32)
-data_ligcl = torch.tensor(np.load(f"ld{ld}_ligcl_all.npy"), dtype=torch.float32)
-data_ligsio2 = torch.tensor(np.load(f"ld{ld}_ligsio2_all.npy"), dtype=torch.float32)
+data_auau = torch.tensor(np.load(f"../best_models/ld{ld}_auau_all.npy"), dtype=torch.float32)
+data_ausio2 = torch.tensor(np.load(f"../best_models/ld{ld}_ausio2_all.npy"), dtype=torch.float32)
+data_ligcl = torch.tensor(np.load(f"../best_models/ld{ld}_ligcl_all.npy"), dtype=torch.float32)
+data_ligsio2 = torch.tensor(np.load(f"../best_models/ld{ld}_ligsio2_all.npy"), dtype=torch.float32)
 
 labels_auau = torch.zeros(len(data_auau), dtype=torch.long)
 labels_ausio2 = torch.ones(len(data_ausio2), dtype=torch.long)

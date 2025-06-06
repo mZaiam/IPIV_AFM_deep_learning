@@ -8,4 +8,4 @@
 source ~/.bashrc
 conda activate ai
 module load cuda/12.1
-python -u train_ae.py --ld=$1 
+python -u train_mlp.py --ld=$1 
