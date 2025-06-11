@@ -11,11 +11,3 @@ This GitHub is organized as follows:
 In particular, the directory `models` is organized with the following structure:
 - `conv1d`: models trained with AFM curves, using 1D convolution;
 - `conv2d`: models trained with the wavelets of the AFM curves, using 2D convolution.
-
-The overall structure of these directories can be viewed as follows:
-``` 
-conv1d/
-|- autoencoders/
-   |-
-|- gans/
-```
